@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+  </header>  
+  <main class="contact-section">
+    <h2>Get in touch</h2>
+    <p>Have A Question, or want to chat about your favorite Mystery novel? or book suggestion <br>send me a message</p>
+    <form class="contact-form">
+        <input type="text" placeholder="your name" required>
+        <input type="email" placeholder="your email" required>
+        <input type="tel" placeholder="your phone number" (optional)>
+        <label for="genre">favorite genre</label>
+        <select name="genre" id="genre">
+            <option value="romance">romance</option>
+            <option value="Mystery">Mystery</option>
+            <option value="trillers">thrillers</option>
+            <option value="fancy">fancy</option>
+            <option value="crime">crime</option>
+            <option value="others">others</option>
+        </select>
+        <label>How do you find this site?</label>
+        <div class="radio-group">
+            <label><input type="radio" name="source" value="friends">Friends</label>
+    <label><input type="radio" name="sourse" value="social">Social</label>
+            <label><input type="radio" name="sourse" value="search">Google /search</label>
+        </div>
+        <label><input type="checkbox" name="subscribe">subscribe to monthly book update.</label>
+        <textarea name="message " rows="5" placeholder="your message"></textarea>
+        <button type="submit"> send message</button>
+    </form>
+  </main>
+  <footer>
+    <p>Thanks for the visit. <br> @beata 2025</p>
+  </footer>
+</body>
+</html>
