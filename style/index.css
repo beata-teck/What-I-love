@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #fefefe;
+    color: #333;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+.hero{
+    background-color: #eee;
+    padding: 2rem;
+    text-align: center;
+}
