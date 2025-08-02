@@ -1,5 +1,9 @@
 *{
     background-image:url("../image/pexels-tima-miroshnichenko-5199811.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -35,7 +39,7 @@ nav a{
     width: 150px;
     padding: 1rem;
     margin: 1rem;
-    border: 2px solid #333;
+    border: 2px solid #333333;
     border-radius: 10px;
     background-color: #f0f0f0;
     transition: 0.3s;
