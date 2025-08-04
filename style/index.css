@@ -28,9 +28,10 @@ h3{
 
 }
 .hero{
-    background-color:#E6F0FF;
+    background-color:rgb(175, 212, 238);
     padding: 2rem;
     text-align: center;
+
 }
 .genre{
     padding: 2rem;
