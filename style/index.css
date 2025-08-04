@@ -33,18 +33,75 @@ h3{
     text-align: center;
 
 }
-.genre{
-    padding: 2rem;
-    text-align: center;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
 }
-.genre-box{
-    display: inline-block;
-    width: 150px;
-    padding: 1rem;
-    margin: 1rem;
-    border: 2px solid #333333;
-    border-radius: 10px;
-    background-color: #f0f0f0;
-    transition: 0.3s;
 
+.genre-selector {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.genre-selector input[type="radio"] {
+  display: none;
+}
+
+.genre-selector label {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #DCD6F7; 
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.genre-selector label:hover {
+  background-color: #B2BEB5; 
+}
+
+.books {
+  display: none;
+  margin-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.books img {
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Show selected genre's books */
+#romance:checked ~ .romance-books,
+#crime:checked ~ .crime-books,
+#fantasy:checked ~ .fantasy-books,
+#mystery:checked ~ .mystery-books {
+  display: flex;
+}
+
+/* Responsive layout for phones */
+@media (max-width: 600px) {
+  .genre-selector label {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    font-size: 1em;
+  }
+
+  .books {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .books img {
+    width: 80%;
+    max-width: 250px;
+  }
 }
