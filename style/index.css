@@ -25,7 +25,8 @@ h3{
     background-color: dimgray;
     box-sizing: content-box;
     border: solid ;
-    border-radius: 20px;
+    border-radius: 15px;
+    border-width: 25px;
 
 }
 .hero{
