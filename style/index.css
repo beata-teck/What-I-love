@@ -1,21 +1,17 @@
 *{
-    background-image:url("../image/pexels-tima-miroshnichenko-5199811.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
+     background-image:url("../image/books.png");
     font-family: sans-serif;
     line-height: 1.6;
     background-color: #fefefe;
     color: #333;
 }
 header{
-    background-color:white;
+    background-color:#333;
     color: white;
     padding: 1rem;
     text-align: center;
