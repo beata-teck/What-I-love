@@ -21,8 +21,15 @@ nav a{
     margin: 0 1rem;
     text-decoration: none;
 }
+h3{
+    background-color: dimgray;
+    box-sizing: content-box;
+    border: solid ;
+    border-radius: 20px;
+
+}
 .hero{
-    background-color: #eee;
+    background-color:#E6F0FF;
     padding: 2rem;
     text-align: center;
 }
