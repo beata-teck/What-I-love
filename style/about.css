@@ -25,9 +25,15 @@ h2,p{
     background-color:rgb(175, 212, 238);
     padding: 2rem;
     text-align: center;}
+    .author-card p{
+        font-size: 1.4rem;
+        color: #555;
+        line-height: 1.5;
+    }
   .author-card {
       background-color: #fff;
       border-radius: 12px;
+      display: grid;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       padding: 20px;
       text-align: center;
@@ -40,8 +46,17 @@ h2,p{
 
     .author-img {
         display: grid;
-        width: 150px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
     }
-
+.author-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
