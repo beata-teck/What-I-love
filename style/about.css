@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-image:url("../image/bookshelf.png");
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #fefefe;
+    color: #333;
+}
+header{
+    background-color:#333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+h2,p{
+    background-color:rgb(175, 212, 238);
+    padding: 2rem;
+    text-align: center;}
+  .author-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .author-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .author-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
