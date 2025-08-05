@@ -56,7 +56,16 @@ h2,p{
 .author-row{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
     flex-wrap: wrap;
+}
+.author-card h3{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+footer{
+    background-color: #333;
+    color: #fff;
 }
