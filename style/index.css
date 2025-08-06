@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-     background-image:url("../image/books.png");
+     background-image:url("/image/books.png");
     font-family: sans-serif;
     line-height: 1.6;
     background-color: #fefefe;
