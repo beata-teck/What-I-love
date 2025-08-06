@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6f0; /* soft cream tone */
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #DCD6F7;
+}
+
+/* Header Section */
+.contact-here {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.contact-here h2 {
+  font-size: 2rem;
+  color: #7a4e3a;
+}
+
+/* Form Layout */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fffaf5;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(180, 150, 120, 0.2);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #5a3e2b;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="number"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d8cfc4;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.gender-options,
+.discovery-options {
+  margin-bottom: 20px;
+}
+
+.gender-options label,
+.discovery-options label {
+  margin-right: 15px;
+  color: #5a3e2b;
+}
+
+.contact-form button {
+  background-color: #a86c4d;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #7a4e3a;
+}
+footer {
+  text-align: center;
+  background-color: #DCD6F7;
+  color: #333;
+  padding: 1rem;
+  font-size: 0.95rem;
+}
