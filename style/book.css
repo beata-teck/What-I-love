@@ -1,26 +1,94 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-image: url("/image/athestic.png");
-    font-family: sans-serif;
-     line-height: 1.6;
-    background-color: #fefefe;
-    color: #333;
+
+body {
+    background-image: url(/image/athestic.png);
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
 }
-header{
-    background-color:#333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+
+/* Header styling */
+header {
+  background-color: #2c3e50;
+  padding: 1rem;
 }
-nav a{
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
 }
-p{
-    
+
+nav a:hover {
+  text-decoration: underline;
 }
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e0eafc;
+  background-image: linear-gradient(315deg, #e0eafc 0%, #cfdef3 74%);
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+/* Book Section Grid */
+.book-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Individual Book Card */
+.book-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.book-card h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.book-card p {
+  padding: 0 1rem 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
