@@ -25,6 +25,23 @@ h2,p{
     background-color:rgb(175, 212, 238);
     padding: 2rem;
     text-align: center;}
+    .myfav{
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+    .myfav h2{
+   font-size: 2rem;
+   margin-bottom: 30px;
+   color: #333;
+    }
+    .author-row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
     .author-card p{
         font-size: 1.4rem;
         color: #555;
@@ -53,13 +70,7 @@ h2,p{
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   text-align: center;
     }
-.author-row{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 40px;
-    flex-wrap: wrap;
-}
+
 .author-card h3{
     font-size: 2rem;
     margin-bottom: 30px;
