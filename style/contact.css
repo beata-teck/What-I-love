@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fdf6f0; /* soft cream tone */
+background-image: url(/image/desk.png);
   color: #333;
   line-height: 1.6;
   padding: 20px;
