@@ -5,7 +5,8 @@
 }
 body{
      background-image:url("/image/books.png");
-    font-family: sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     background-color: #fefefe;
     color: #333;
@@ -26,6 +27,10 @@ h3{
     box-sizing: content-box;
 
 
+}
+#highlights{
+  color: #333;
+      background-color:rgb(175, 212, 238);
 }
 .hero{
     background-color:rgb(175, 212, 238);
