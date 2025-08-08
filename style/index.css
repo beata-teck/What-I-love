@@ -28,10 +28,7 @@ h3{
 
 
 }
-#highlights{
-  color: #333;
-      background-color:rgb(175, 212, 238);
-}
+
 .hero{
     background-color:rgb(175, 212, 238);
     padding: 2rem;
@@ -112,8 +109,7 @@ body {
 }
 footer {
   text-align: center;
-  background-color: #DCD6F7;
-  color: #333;
+  color:black;
   padding: 1rem;
   font-size: 0.95rem;
 }
