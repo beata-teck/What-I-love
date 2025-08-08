@@ -117,9 +117,7 @@ button::after{
     margin-left: 5px;
 }
 footer {
-  text-align: center;
-  background-color: #DCD6F7;
-  color: #333;
-  padding: 1rem;
-  font-size: 0.95rem;
+   text-align: center;
+    background-color: #333;
+    color: #fff;
 }
