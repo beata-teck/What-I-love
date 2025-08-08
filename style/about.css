@@ -74,7 +74,23 @@ h2,p{
   text-align: center;
   width: 100%;
 }
+/*Table*/
+table{
+  width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+background-color: #2791ae;
 
+}
+th, td{
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+th{
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
 footer{
     text-align: center;
     background-color: #333;
